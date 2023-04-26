@@ -1,0 +1,235 @@
+/* 
+    Project 4 Website
+	Name: Johans Mendoza
+	Date: April 25, 2023
+	Description: CSS for all the Web pages.
+    
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header portion */
+
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #4282AB;
+    margin: 0;
+    text-align: center;
+}
+
+#pageWrap{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 100px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px 0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Bebas Neue', cursive;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+
+header img{
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+/* navigation */
+
+#pageBreak ul{
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    list-style: none;
+    background-color: #93cdf1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#pageBreak ul li{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+#pageBreak ul li a{
+    text-decoration: none;
+    color: black
+}
+
+#pageBreak ul li a:hover{
+    background-color: #d3e5f0;
+    font-style: oblique;
+}
+
+/* main content */
+
+#body{
+    padding: 20px;
+}
+
+#body h2{
+    font-size: xx-large;
+}
+
+#body p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+/* Service content */
+
+#service{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.package{
+    width: 230px;
+    height: 400px;
+    background-color: #93cdf1;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px 0px;
+    padding: 10px;
+    margin: 2px;
+}
+
+.package h3{
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke:0.2px white;
+}
+
+.package img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#workout{
+    width: 200px;
+    height: 200px;
+}
+
+.package p{
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+#introduction
+{
+    margin-bottom: 20px;
+}
+
+/* Contact Page */
+
+#contact{
+    font-family: 'Oswald', sans-serif;
+    width: auto;
+    border-radius: 10px;
+    margin: 15px;
+    display: block;
+}
+
+#contact legend{
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px;
+    font-size: xxx-large;
+}
+
+#customer{
+    list-style-type: none;
+}
+
+#customer li label{
+    display: block;
+}
+
+#name,
+#phone,
+#email,
+input[type="text"]{
+    width: 250px;
+    height: 25px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    margin: 8px;
+    padding: 5px;
+}
+
+/* Footer Content */
+
+footer nav{
+    border-top: 1px solid black;
+}
+
+footer nav ul{
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer nav ul li{
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight:400;
+    font-size: medium;
+    text-decoration: underline;
+}
+
+#rights{
+    text-decoration: none;
+    font-size: smaller;
+    font-weight: lighter;
+}
